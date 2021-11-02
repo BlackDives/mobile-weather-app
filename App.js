@@ -11,6 +11,7 @@ import {
 import Header from './components/Header';
 import CitySearch from './components/CitySearch';
 import CityDisplay from './components/CityDisplay';
+import WeatherTodayDisplay from './components/WeatherTodayDisplay';
 
 const App = () => {
   StatusBar.setBarStyle('dark-content', true);
@@ -20,6 +21,7 @@ const App = () => {
       <Header />
       <CitySearch />
       <CityDisplay city={'Baton Rouge'} temperature={'70°'} clouds={'clear'} />
+      <WeatherTodayDisplay />
     </SafeAreaView>
   );
 };
